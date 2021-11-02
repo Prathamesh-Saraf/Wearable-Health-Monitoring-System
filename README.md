@@ -14,5 +14,5 @@ Arduino and Raspberry-pi based low-cost device to obtain the heart rate, blood p
 
 ## Hardware setup
 <div  align="center">
-<img  src="./media/setup.jpeg" width="600">
+<img  src="./media/setup.jpeg" width="300">
 </div>
