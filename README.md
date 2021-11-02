@@ -1,18 +1,18 @@
 # Wearable-Health-Monitoring-System
+
+## Description
+Arduino and Raspberry-pi based low-cost device to obtain the heart rate, blood pressure, body temperature, oxygen level, & the GPS location of a person. 
+LCD screen integrated along with the respective sensors to an Arduino pro mini (size of a wristwatch)  
+The data is transmitted from the device to a manpack module (Raspberry Pi) using Bluetooth. 
+CAN bus setup for parallel transmission of the data from multiple nearby devices
+The to a 2-3 km far base station using a LoRa module
+
+## System architecture
 <div  align="center">
 <img src="./media/blockdiag.jpeg" width="700" />
 </div>
 
-## Description
-In this work, classical, optimal, and force-based controllers are designed for a 3 DOF spherical manipulator in Matlab-Simulink. The controllers are deployed and verified on the KUKA IIWA LBR7 industrial manipulator in ROS-Gazebo simulator using the ros_controls package.
-Some intreseting results are seen in the comparison of these controllers for the robotic manipulator.
-
-Controllers:
-- Proportional Integral Derivative (PID)
-- Linear Quadratic Regulator (LQR)
-- Impedence Control
-
-
+## Hardware setup
 <div  align="center">
 <img  src="./media/setup.jpeg" width="600">
 </div>
